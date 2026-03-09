@@ -6,20 +6,20 @@ class Check < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kaxing/checkpoint/releases/download/v0.0.1/check-macos-arm64.tar.gz"
-      sha256 "21bb84c19926f3779dcb102908e7838501d93977cacd001143b38fd081b3097c"
+      sha256 "ec0345d3aebe056bf6d64c1b1eaceb3d259e4c4fcfd7de0704f0434653e46afc"
     else
       url "https://github.com/kaxing/checkpoint/releases/download/v0.0.1/check-macos-x86_64.tar.gz"
-      sha256 "5c98c00e4a7730f5e7bc40e2e4562aca53e441ccb12aafad0d15874a2d70827c"
+      sha256 "999252155d95b22b2c5ffae50cff59dc0cc4e2b502dd42d8f9967286b0464f6d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/kaxing/checkpoint/releases/download/v0.0.1/check-linux-arm64.tar.gz"
-      sha256 "a1f3a447a3996321f01b5ec8afd8ffebb537d65a97398f8b45de775b38d38e31"
+      sha256 "df3b5252f47c6c1fcab085e8bc7559afdc5bd2084eded3bad37839d7fa8e850f"
     else
       url "https://github.com/kaxing/checkpoint/releases/download/v0.0.1/check-linux-x86_64.tar.gz"
-      sha256 "e561616953463fc48c9043d7c95b0f54952ae5684f2c03a8b6b5b5bcda7739ae"
+      sha256 "581717e3edc669d460e12eb0d6a214decdc943b9445dc8bfd10a7a3d72b3125b"
     end
   end
 
